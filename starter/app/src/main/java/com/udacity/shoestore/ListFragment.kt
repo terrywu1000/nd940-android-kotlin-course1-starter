@@ -7,19 +7,17 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
-import com.udacity.shoestore.databinding.FragmentWelcomeBinding
+import com.udacity.shoestore.databinding.FragmentListBinding
 
-class WelcomeFragment : Fragment() {
+class ListFragment : Fragment() {
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding: FragmentWelcomeBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_welcome,container,false)
+        val binding: FragmentListBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_list,container,false)
 
-        binding.startButton.setOnClickListener (
-            Navigation.createNavigateOnClickListener(R.id.action_welcomeFragment_to_instructionFragment)
-        )
 
 
         return binding.root
