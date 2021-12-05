@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/terry wu/AndroidStudioProjects/MyApplication/udacity/nd940-android-kotlin-course1-starter/starter/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/terry wu/AndroidStudioProjects/MyApplication/udacity/nd940-android-kotlin-course1-starter/starter/app/src/main/res/layout/fragment_instruction.xml" value="0.34193840579710144" />
-        <entry key="..\:/Users/terry wu/AndroidStudioProjects/MyApplication/udacity/nd940-android-kotlin-course1-starter/starter/app/src/main/res/layout/fragment_list.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/terry wu/AndroidStudioProjects/MyApplication/udacity/nd940-android-kotlin-course1-starter/starter/app/src/main/res/layout/fragment_instruction.xml" value="0.2127659574468085" />
+        <entry key="..\:/Users/terry wu/AndroidStudioProjects/MyApplication/udacity/nd940-android-kotlin-course1-starter/starter/app/src/main/res/layout/fragment_list.xml" value="0.15" />
         <entry key="..\:/Users/terry wu/AndroidStudioProjects/MyApplication/udacity/nd940-android-kotlin-course1-starter/starter/app/src/main/res/layout/fragment_login.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/terry wu/AndroidStudioProjects/MyApplication/udacity/nd940-android-kotlin-course1-starter/starter/app/src/main/res/layout/fragment_new.xml" value="0.33695652173913043" />
         <entry key="..\:/Users/terry wu/AndroidStudioProjects/MyApplication/udacity/nd940-android-kotlin-course1-starter/starter/app/src/main/res/layout/fragment_welcome.xml" value="0.1" />
         <entry key="..\:/Users/terry wu/AndroidStudioProjects/MyApplication/udacity/nd940-android-kotlin-course1-starter/starter/app/src/main/res/layout/login_fragment.xml" value="0.2046875" />
       </map>

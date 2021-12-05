@@ -4,14 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.udacity.shoestore.ListFragment">
 
+    <data>
+
+        <variable
+            name="shoeViewModel"
+            type="com.udacity.shoestore.models.ShoeViewModel" />
+    </data>
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp">
 
         <LinearLayout
+            android:id="@+id/listItemRoot"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:layout_marginTop="32dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/addButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:src="@drawable/ic_add" />
+            <!--
+                        <TextView
+                            android:id="@+id/listItem"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_weight="1"
+                            android:text="@{shoeViewModel.shoeItemString}"
+                            android:textSize="20sp" />
+            -->
+
+        </LinearLayout>
 
     </ScrollView>
 
